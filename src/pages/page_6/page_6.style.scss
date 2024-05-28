@@ -1,0 +1,46 @@
+
+.page-6 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../assets/svgs/backgrounds/page6-bg.svg");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    overflow: hidden;
+
+    .cloud {
+        width: 9rem;
+    }
+
+    #c1 {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    }
+
+    #c2 {
+        position: absolute;
+        top: 8%;
+        right: 25%;
+    }
+
+    #c3 {
+        position: absolute;
+        top: 15%;
+        right: 45%;
+    }
+
+    .castle {
+        position: absolute;
+        bottom: 18%;
+        right: 10%;
+    }
+
+    .mario {
+        position: absolute;
+        left: 24%;
+        bottom: 18%;
+    }
+
+    
+}

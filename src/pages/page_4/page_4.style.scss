@@ -1,0 +1,73 @@
+
+.page-4 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../assets/svgs/backgrounds/page4-bg.svg");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    overflow: hidden;
+
+    .cloud {
+        width: 9rem;
+    }
+
+    #c1 {
+        position: absolute;
+        top: 18%;
+        left: 10%;
+    }
+
+    #c2 {
+        position: absolute;
+        top: 12%;
+        right: 10%;
+    }
+
+    #c3 {
+        position: absolute;
+        top: 15%;
+        right: 25%;
+    }
+
+    #c4 {
+        position: absolute;
+        top: 10%;
+        left: 35%;
+    }
+
+    .tunnels-row {
+        position: absolute;
+        bottom: 17.5%;
+        right: 14.5%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        width: max-content;
+        gap: 2rem;
+    }
+
+    .heart {
+        position: absolute;
+        bottom: 36%;
+        right: 39%;
+    }
+
+    .star {
+        position: absolute;
+        bottom: 47%;
+        right: 27%;
+    }
+
+    .potion {
+        position: absolute;
+        bottom: 39%;
+        right: 17.5%;
+    }
+
+    .mario {
+        position: absolute;
+        left: 18%;
+        bottom: 18%;
+    }
+}

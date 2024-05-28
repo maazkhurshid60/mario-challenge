@@ -1,0 +1,234 @@
+
+.spm {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+
+    .spm-cont {
+        max-width: 1170px;
+        padding: 12px;
+        margin: 0 auto;
+
+        .spm-wrapper {
+            position: relative;
+
+            .grid-container {
+                display: grid;
+                grid-template-columns: auto auto auto auto auto;
+                background-color: rgb(248, 248, 248);
+                padding: 14px;
+                border-radius: 34px;
+            }
+            .grid-item {
+                // border: 1px solid rgba(0, 0, 0, 0.8);
+                padding: 5px 0px;
+                font-size: 30px;
+                text-align: center;
+            }
+    
+            .timeline {
+                width: inherit;
+                height: 100%;
+                text-align: left;
+                border-radius: 6px;
+                padding: 5px;
+                font-size: 19px;
+                color: white;
+                font-weight: bolder;
+            }
+            
+            #tm-1 {
+                background-color: rgb(1,135,192);
+                border-top-right-radius: 0px;
+                border-bottom-right-radius: 0px;
+                margin-left: 20px;
+            }
+            #tm-2 {
+                background-color: rgb(1,135,192);
+                border-top-left-radius: 0px;
+                border-bottom-left-radius: 0px;
+                margin-right: 40%;
+            }
+    
+            #tm-3 {
+                background-color: rgb(1,177,116);
+                margin-left: 20px;
+                margin-right: 4px;
+            }
+    
+            #tm-4 {
+                background-color: rgb(1,177,116);
+                margin: 0 4px;
+            }
+    
+            #tm-5 {
+                background-color: rgb(255,138,1);
+                margin-left: 20px;
+                margin-right: 4px;
+            }
+    
+            #tm-6 {
+                background-color: rgb(255,138,1);
+                margin: 0 4px;
+            }
+    
+            #tm-7 {
+                background-color: rgb(46,50,154);
+                margin: 0 4px;
+            }
+    
+            #tm-8 {
+                background-color: rgb(117,31,185);
+                border-top-right-radius: 0px;
+                border-bottom-right-radius: 0px;
+                margin-left: 4px;
+            }
+    
+            #tm-9 {
+                background-color: rgb(117,31,185);
+                border-radius: 0;
+            }
+    
+            #tm-10 {
+                background-color: rgb(117,31,185);
+                border-top-left-radius: 0px;
+                border-bottom-left-radius: 0px;
+                margin-right: 4px;
+            }
+    
+            #tm-11 {
+                background-color: rgb(241,74,63);
+                border-top-right-radius: 0px;
+                border-bottom-right-radius: 0px;
+                margin-left: 4px;
+            }
+    
+            #tm-12 {
+                background-color: rgb(241,74,63);
+                border-top-left-radius: 0px;
+                border-bottom-left-radius: 0px;
+                margin-right: 4px;
+            }
+    
+            #tm-13 {
+                background-color: rgb(191,184,202);
+                border-top-right-radius: 0px;
+                border-bottom-right-radius: 0px;
+                margin-left: 75%;
+                text-align: right;
+            }
+    
+            #tm-14 {
+                background-color: rgb(191,184,202);
+                border-radius: 0px;
+                text-align: left;
+            }
+    
+            #tm-15 {
+                background-color: rgb(191,184,202);
+                border-top-left-radius: 0px;
+                border-bottom-left-radius: 0px;
+                margin-right: 4px;
+            }
+    
+            #tm-16 {
+                background-color: rgb(104,127,250);
+                margin: 0 4px;
+            }
+    
+            .heading {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                color: rgb(44, 44, 44);
+                gap: 10px;
+    
+                .index {
+                    font-size: 24px;
+                    font-weight: bold;
+                }
+    
+                .title {
+                    width: 70%;
+                    font-size: 24px;
+                    font-weight: bold;
+                }
+            }
+
+            .overlap-cont {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border-radius: 34px;
+                display: flex;
+                align-items:flex-start;
+
+                .olap {
+                    // border: 1px solid black;
+                    height: inherit;
+                }
+
+                #ol-1 {
+                    background-color: rgb(255,255,255, 0.4);
+                    width: 17.1%;
+                    border-top-left-radius: 34px;
+                    border-bottom-left-radius: 34px;
+
+                    &:hover {
+                        cursor: pointer;
+                        background-color: transparent;
+                    }
+                }
+
+                #ol-2 {
+                    background-color: rgb(255,255,255, 0.4);
+                    width: 15.6%;
+
+                    &:hover {
+                        cursor: pointer;
+                        background-color: transparent;
+                    }
+                }
+
+                #ol-3 {
+                    background-color: rgb(255,255,255, 0.4);
+                    width: 23.6%;
+
+                    &:hover {
+                        cursor: pointer;
+                        background-color: transparent;
+                    }
+                }
+
+                #ol-4 {
+                    background-color: rgb(255,255,255, 0.4);
+                    width: 27.5%;
+
+                    &:hover {
+                        cursor: pointer;
+                        background-color: transparent;
+                    }
+                }
+
+                #ol-5 {
+                    background-color: rgb(255,255,255, 0.4);
+                    width: 16%;
+                    border-top-right-radius: 34px;
+                    border-bottom-right-radius: 34px;
+
+                    &:hover {
+                        cursor: pointer;
+                        background-color: transparent;
+                    }
+                }
+
+            }
+
+        }
+
+    }
+    
+}
