@@ -7,6 +7,8 @@ import marioChHeading from '../../assets/svgs/mario-ch-heading.svg';
 import startBtn from '../../assets/svgs/start-btn.svg';
 import { useNavigate } from 'react-router-dom';
 
+//Adding this line for git activity
+
 function Page1() {
   const navigate = useNavigate();
 
