@@ -8,7 +8,7 @@ import { RouterProvider } from 'react-router-dom';
 ReactDOM.createRoot(document.getElementById('root')).render(
 
 
-  // Deleting this line for git activity 
+  //Adding this line for git activity 
   <React.StrictMode>
     <RouterProvider router={router} />
   </React.StrictMode>,
